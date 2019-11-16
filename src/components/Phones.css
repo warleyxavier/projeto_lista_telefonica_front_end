@@ -1,0 +1,49 @@
+.phonesContainer {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inputSearch {
+    width: calc(83% - 50px);
+    height: 20px;
+    padding: 10px;
+    border-radius: 9px;
+    border: lightgray 1px solid;
+}
+
+.buttonSearch {
+    width: calc(20% - 50px);
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    background-color:rebeccapurple;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+
+.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.imageEmpty {
+    width: 300px;
+    height: 300px;
+}
+
+.textEmpty {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(102,51, 153, 0.9 );
+    font-size: 25px;
+}

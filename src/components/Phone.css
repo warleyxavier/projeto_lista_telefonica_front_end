@@ -1,0 +1,49 @@
+.phoneContainer {
+    width: 100%;
+    background-color: rgba(102,51, 153, 0.6 );
+    margin-top: 15px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.user {
+    display: flex;
+    flex: 2;  
+    align-items: center;
+    justify-content: center;
+}
+
+.userPhoto {
+    width: 50px;
+    border-radius: 50px;;
+}
+
+.data {
+    display: flex;
+    flex: 6;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 0px 20px;
+    padding-right: 50px;
+}
+
+.options {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.excludeButton {
+    background-color: white;
+    border: none;
+    border-radius: 9px;
+    height: 35px;
+    width: 70px;
+    cursor: pointer;
+}
